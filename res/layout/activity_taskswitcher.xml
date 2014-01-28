@@ -1,0 +1,46 @@
+<LinearLayout android:orientation="vertical" android:background="@drawable/recent_bg" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left|top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    	<com.example.taskswitcherreal.RecentsKill android:background="@drawable/clear" android:id="@+id/clear_recents_tasks" android:textColor="#00000000" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+   	</LinearLayout>  
+    <ScrollView android:orientation="vertical" android:id="@+id/zzz_recent_app_icon_row" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/zzz_recent_app_icon_row" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.example.taskswitcherreal.PanelFlipper android:id="@+id/panelflipper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginBottom="5.0dip">
+					<include android:gravity="top" android:id="@+id/button5" layout="@layout/recent_apps_icon" />
+				</LinearLayout>
+				<include layout="@layout/empty_screen" />
+			</com.example.taskswitcherreal.PanelFlipper>
+            <com.example.taskswitcherreal.PanelFlipper android:id="@+id/panelflipper" android:layout_width="fill_parent" android:layout_height="wrap_content">			
+            <LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginBottom="5.0dip">
+                <include android:gravity="top" android:id="@+id/button4" layout="@layout/recent_apps_icon" />
+            </LinearLayout>
+				<include layout="@layout/empty_screen" />
+			</com.example.taskswitcherreal.PanelFlipper>
+            <com.example.taskswitcherreal.PanelFlipper android:id="@+id/panelflipper" android:layout_width="fill_parent" android:layout_height="wrap_content">			
+            <LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginBottom="5.0dip">
+                <include android:gravity="top" android:id="@+id/button3" layout="@layout/recent_apps_icon" />
+            </LinearLayout>
+				<include layout="@layout/empty_screen" />
+			</com.example.taskswitcherreal.PanelFlipper>
+            <com.example.taskswitcherreal.PanelFlipper android:id="@+id/panelflipper" android:layout_width="fill_parent" android:layout_height="wrap_content">			
+            <LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginBottom="5.0dip">
+                <include android:gravity="top" android:id="@+id/button2" layout="@layout/recent_apps_icon" />
+            </LinearLayout>
+				<include layout="@layout/empty_screen" />
+			</com.example.taskswitcherreal.PanelFlipper>
+            <com.example.taskswitcherreal.PanelFlipper android:id="@+id/panelflipper" android:layout_width="fill_parent" android:layout_height="wrap_content">			
+            <LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginBottom="5.0dip">
+                <include android:gravity="top" android:id="@+id/button1" layout="@layout/recent_apps_icon" />
+            </LinearLayout>
+				<include layout="@layout/empty_screen" />
+			</com.example.taskswitcherreal.PanelFlipper>
+            <com.example.taskswitcherreal.PanelFlipper android:id="@+id/panelflipper" android:layout_width="fill_parent" android:layout_height="wrap_content">			
+            <LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginBottom="5.0dip">
+                <include android:gravity="top" android:id="@+id/button0" layout="@layout/recent_apps_icon" />
+            </LinearLayout>
+				<include layout="@layout/empty_screen" />
+			</com.example.taskswitcherreal.PanelFlipper>			
+        </LinearLayout>
+    </ScrollView>   
+</LinearLayout>
